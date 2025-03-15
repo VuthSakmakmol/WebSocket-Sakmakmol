@@ -11,6 +11,7 @@ const seedSuperAdmin = async () => {
                 email: "superadmin@example.com",
                 password: hashedPassword,
                 role: "superadmin",
+                permissions: ["all"],
             });
             console.log("✅ Super Admin seeded successfully!");
         }
